@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade formulario</title>
+</head>
+<body>
+    <form action="#">
+        <label for="unidade">escolha uma das unidades:</label> <br>
+
+        <input type="radio" name="unidade" id="fortaleza" value="fortaleza">
+        <label for="fortaleza">fortaleza</label> <br>
+
+        <input type="radio" name="unidade" id="eusebio" value="eusebio">
+        <label for="eusebio">eusebio</label> <br>
+
+        <input type="radio" name="unidade" id="maracanau" value="maracanau">
+        <label for="maracanau">maracanau</label>
+    </form>
+    <br>
+    <br>
+    <form action="#">
+        <label for="turno">escolha um turno de interesse:</label> <br>
+
+        <input type="checkbox" name="turno" id="manhã" value="manhã">
+        <label for="manhã">manhã</label> <br>
+
+        <input type="checkbox" name="turno" id="tarde" value="tarde">
+        <label for="tarde">tarde</label> <br>
+
+        <input type="checkbox" name="turno" id="noite" value="noite">
+        <label for="noite">noite</label>
+    </form>
+    <form action="#">
+        <!-- Cargo de interesse "menu suspenso" -->
+          <!-- opções:
+            desenvolvedor front-end
+            desenvolvedor back-end
+            desenvolvedor full-stack
+            analista de sistemas (desabilitado para a seleção)
+            gestor de projetos
+            gestor de qualidade
+            QA (desabilitado para a seleção)
+            designer
+            estagiário        
+         -->
+        <!-- configure uma opção estilo placeholder com o texto "Selecione o seu cargo" -->
+         <label for="cargo">cargo do seu interesse:</label>
+         <select name="cargo" id="cargo">
+            <option value="" disabled selected hidden>Selecione seu cargo</option>
+            <option value="front-end">desenvolvedor front-end</option>
+            <option value="back-end">desenvolvedor back-end</option>
+            <option value="full-stack">desenvolvedor full-stack</option>
+            <option value="analista de sistemas" disabled>analista de sistemas</option>
+            <option value="gestor de projetos">gestor de projetos</option>
+            <option value="gestor de qualidade">gestor de qualidade</option>
+            <option value="QA" disabled>QA</option>
+            <option value="designer">designer</option>
+            <option value="estagiário">estagiário</option>
+         </select>
+    </form>
+</body>
+</html> 

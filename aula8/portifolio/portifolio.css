@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkblue;
+    background-image: url(5631533.jpg);
+}
+.port{
+    background-color: darkcyan;
+    margin: 0px auto;
+    padding: 30px;
+    width: 400px;
+    border-radius: 30px;
+    display: block;
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+    width: 300px;
+    margin: 0px auto;
+    display: block;
+}
+a{
+    display: block;
+    background-color: rgb(38, 175, 102);
+    margin: 10px 0px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    border-radius: 40px;
+}

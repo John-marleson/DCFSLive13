@@ -1,0 +1,19 @@
+fieldset{
+    background-color: darkblue;
+}
+label{
+    color: darkcyan;
+}
+input{
+    background-color: darkgray;
+}
+textarea{
+    background-color: darkgray;
+}
+option {
+    background-color: darkgray;
+}
+legend{
+    color: crimson;
+}
+bo

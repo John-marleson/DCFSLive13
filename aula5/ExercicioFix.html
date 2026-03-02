@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidatura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Formulario de Candidatura</legend>
+            <label for="Nome">Nome</label>
+            <input type="text" id="Nome"> <br>
+
+            <label for="Email">Email</label>
+            <input type="email" name="Email" id="Email"> <br>
+
+            <label for="cargo">Cargo de Tecnologia</label>
+            <select name="cargo" id="cargo">
+                <option value="DEV">pessoa desenvolvedora</option>
+                <option value="analista de sistemas">analista de sistemas</option>
+                <option value="administrador(a) de banco de dados">administrador(a) de banco de dados</option>
+                <option value="testador(a)">testador(a)</option>
+            </select> <br>
+            
+            <label for="Genero">Genero:</label>
+
+                <input type="radio" name="Genero" id="masculino" value="masculino">
+                <label for="masculino">masculino</label>
+
+                <input type="radio" name="Genero" id="feminino" value="feminino">
+                <label for="feminino">feminino</label>
+
+                <input type="radio" name="Genero" id="Outro" value="Outro">
+                <label for="Outro">Outro</label> <br>
+
+            <label for="unidade">unidade de interesse</label>
+
+                <input type="checkbox" name="unidade" id="fortaleza" value="fortaleza">
+                <label for="fortaleza">fortaleza</label>
+
+                <input type="checkbox" name="unidade" id="caucaia" value="caucaia">
+                <label for="caucaia">caucaia</label>
+
+                <input type="checkbox" name="unidade" id="eusebio" value="eusebio">
+                <label for="eusebio">eusebio</label> <br>
+
+            <label for="MeuTexto">fale mais sobre voçê</label> <br>
+            
+            <textarea class="texto" name="MeuTexto" id="MeuTexto" rows="5"></textarea> <br>
+            
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+</body>
+</html>

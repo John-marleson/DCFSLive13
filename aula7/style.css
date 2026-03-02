@@ -1,0 +1,60 @@
+*{
+    margin: 5px;
+    padding: 4  px;
+}
+main{
+    margin:0px 100px 0px 100px;
+}
+.conteudo{
+    
+}
+.texto-padrao{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.texto-alternativo{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: px;
+}
+.texto-decorativo{
+    font-family:serif;
+    
+}
+.peso-leve{
+    font-weight: 300;
+}
+.peso-normal{
+    font-weight: 400;
+}
+.peso-forte{
+    font-weight: 700;
+}
+.alinhado-esquerda{
+    text-align: left;
+}
+.alinhado-centro{
+    text-align: center;
+}
+.alinhado-direita{
+    text-align: right;
+}
+.destaque-cor{
+    background-color:blue;
+    color: aliceblue;
+}
+.bordaEsquerda{
+    border-left: 14px solid green;
+}
+.bordaDireita{
+    border-right: 14px solid green;
+}
+.bordaSuperior{
+    border-top: 14px solid green;
+}
+.bordaInferior{
+    border-bottom: 14px solid green;
+}
+.rodape{
+    border: 3px solid green;
+    margin: 10px;
+    padding: 14px;
+}
