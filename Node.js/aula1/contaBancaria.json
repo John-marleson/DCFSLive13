@@ -1,0 +1,19 @@
+[{
+    "contas" : [
+        {
+            "numero": "1234",
+            "agencia": "0001",
+            "nome": "João",
+            "saldo": 100
+        },
+        {
+            "numero": "4321",
+            "agencia": "0001",
+            "nome": "Maria",
+            "saldo": 200
+        }
+    ],
+    "gerente": "Cleitinho Lima",
+    "numeroAgencia": "0001"
+}
+]
