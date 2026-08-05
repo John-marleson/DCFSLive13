@@ -53,5 +53,3 @@ function login(obj, senha){
     return resultado
 }
 
-console.log(login(objUsuario, '12345'))
-console.log(login(objUsuario, 'JOHNjohn28'))
