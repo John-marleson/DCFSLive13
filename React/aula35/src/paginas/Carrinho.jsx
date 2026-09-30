@@ -1,13 +1,13 @@
 import { useContext } from "react";
-import { product } from "../contexto/ProdutoContexto";
-import CardProduct from "../componentes/ProdutosCard";
-export default function Produtos(){
+import { CarrinhoContexto } from "../contexto/CarrinhoContext";
 
-    const {produto} = useContext(product)
+import CardProduct from "../componentes/ProdutosCard";
+
+export default function CarrinhoPage(){
+    const {carrinho} = useContext(CarrinhoContexto)
 
     return(<>
-    <h1>Produtos</h1>
-    {produto && produto.map((e) => {
+    {carrinho && carrinho.map((e)=>{
         return(
         <CardProduct 
         key={e.id}
@@ -17,6 +17,6 @@ export default function Produtos(){
         preco={e.preco}
         imagem={e.imagem}
         />
-            )})}
+    )})}
     </>)
 }

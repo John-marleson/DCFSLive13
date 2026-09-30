@@ -9,8 +9,16 @@ export function TemaProvidor({children}){
         color: 'white'
     })
 
+    function AlterarTema() {
+    console.log('ta funcionando')
+    if (tema.color === 'black') {
+      setTema({ backgroundColor: 'black', color: 'white' })
+    } else {
+      setTema({ backgroundColor: 'white', color: 'black' })
+    }
+  }
     return(
-        <TemaContext.Provider value={{tema, setTema}}>
+        <TemaContext.Provider value={{tema, AlterarTema}}>
             {children}
         </TemaContext.Provider>
     )
